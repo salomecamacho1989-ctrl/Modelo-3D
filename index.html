@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Modelo 3D</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f0f0f0;
+      }
+      model-viewer {
+        width: 80vw;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer src="delfin.glb" alt="Modelo Delfín" auto-rotate camera-controls ar>
+    </model-viewer>
+  </body>
+</html>
